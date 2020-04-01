@@ -2,8 +2,6 @@
 This repository is still under construction. Dataset and publication associated to the repository will be made public
 as soon as possible.
 
-TODO: Add \ to bash lines
-
 # Cyclist Action Recognition
 This repository contains code to train, validate, and test networks for cyclist action recognition based on image 
 sequences, optical flow sequences, and trajectories.
