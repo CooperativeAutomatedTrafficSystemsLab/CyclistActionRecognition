@@ -1,0 +1,13 @@
+{
+  "model_name": "msof_wait_motion_final",
+  "kwargs": {
+    "train_wait_motion": true
+  },
+  "param_grid": {
+    "use_ms_hk1": false,
+    "use_ms_hk2": false,
+    "use_of_hk1": true,
+    "use_of_hk2": true,
+    "use_trajectory": true
+  }
+}

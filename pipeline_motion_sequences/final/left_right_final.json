@@ -1,0 +1,14 @@
+{
+  "model_name": "msof_left_right_final",
+  "kwargs": {
+    "train_wait_motion": false,
+    "train_left_right": true
+  },
+  "param_grid": {
+    "use_ms_hk1": false,
+    "use_ms_hk2": false,
+    "use_of_hk1": true,
+    "use_of_hk2": true,
+    "use_trajectory": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "start_stop_move_final",
+  "kwargs": {
+    "balance_samples": false,
+    "train_wait_motion": false,
+    "train_start_stop_move": true,
+    "batch_size": 1000,
+    "hidden_architecture_trajectory": {
+      "FCL": {
+        "activation": "evaltf.nn.selu",
+        "layers": "eval[100]*5",
+        "keep_prop": 1.0
+      }
+    }
+  }
+}

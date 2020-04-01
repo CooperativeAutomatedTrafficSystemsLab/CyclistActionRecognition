@@ -1,0 +1,16 @@
+{
+  "name": "left_right_final",
+  "kwargs": {
+    "balance_samples": false,
+    "train_wait_motion": false,
+    "train_left_right": true,
+    "batch_size": 1000,
+    "hidden_architecture_trajectory": {
+      "FCL": {
+        "activation": "evaltf.nn.selu",
+        "layers": "eval[100]*3",
+        "keep_prop": 1.0
+      }
+    }
+  }
+}

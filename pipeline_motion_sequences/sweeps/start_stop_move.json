@@ -1,0 +1,25 @@
+{
+  "kwargs": {
+    "train_wait_motion": false,
+    "train_start_stop_move": true
+  },
+  "param_grid": [
+    {
+      "use_ms_hk1": [
+        true
+      ],
+      "use_ms_hk2": [
+        true
+      ],
+      "use_of_hk1": [
+        true
+      ],
+      "use_of_hk2": [
+        true
+      ],
+      "use_trajectory": [
+        true
+      ]
+    }
+  ]
+}

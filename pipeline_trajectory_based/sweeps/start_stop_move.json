@@ -1,0 +1,66 @@
+{
+  "name": "start_stop_move",
+  "kwargs": {
+    "balance_samples": false,
+    "train_wait_motion": false,
+    "train_start_stop_move": true
+  },
+  "param_grid": {
+    "batch_size": [
+      20000,
+      5000,
+      1000
+    ],
+    "hidden_architecture_trajectory": [
+      {
+        "FCL": {
+          "activation": "evaltf.nn.selu",
+          "layers": "eval[2000]*2",
+          "keep_prop": 1.0
+        }
+      },
+      {
+        "FCL": {
+          "activation": "evaltf.nn.selu",
+          "layers": "eval[1000]*3",
+          "keep_prop": 1.0
+        }
+      },
+      {
+        "FCL": {
+          "activation": "evaltf.nn.selu",
+          "layers": "eval[100]*5",
+          "keep_prop": 1.0
+        }
+      },
+      {
+        "FCL": {
+          "activation": "evaltf.nn.selu",
+          "layers": "eval[100]*3",
+          "keep_prop": 1.0
+        }
+      },
+      {
+        "FCL": {
+          "activation": "evaltf.nn.selu",
+          "layers": "eval[10]*7",
+          "keep_prop": 1.0
+        }
+      },
+      {
+        "FCL": {
+          "activation": "evaltf.nn.selu",
+          "layers": "eval[10]*5",
+          "keep_prop": 1.0
+        }
+      },
+      {
+        "FCL": {
+          "activation": "evaltf.nn.selu",
+          "layers": "eval[10]*3",
+          "keep_prop": 1.0
+        }
+      }
+    ]
+  }
+}

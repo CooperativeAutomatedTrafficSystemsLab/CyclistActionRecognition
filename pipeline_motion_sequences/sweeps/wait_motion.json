@@ -1,0 +1,174 @@
+{
+  "param_grid": [
+    {
+      "use_ms_hk1": [
+        true
+      ],
+      "use_ms_hk2": [
+        true
+      ],
+      "use_of_hk1": [
+        true
+      ],
+      "use_of_hk2": [
+        true
+      ],
+      "use_trajectory": [
+        true
+      ]
+    },
+    {
+      "use_ms_hk1": [
+        true
+      ],
+      "use_ms_hk2": [
+        true
+      ],
+      "use_of_hk1": [
+        true
+      ],
+      "use_of_hk2": [
+        true
+      ],
+      "use_trajectory": [
+        false
+      ]
+    },
+    {
+      "use_ms_hk1": [
+        true
+      ],
+      "use_ms_hk2": [
+        true
+      ],
+      "use_of_hk1": [
+        false
+      ],
+      "use_of_hk2": [
+        false
+      ],
+      "use_trajectory": [
+        false
+      ]
+    },
+    {
+      "use_ms_hk1": [
+        true
+      ],
+      "use_ms_hk2": [
+        false
+      ],
+      "use_of_hk1": [
+        true
+      ],
+      "use_of_hk2": [
+        false
+      ],
+      "use_trajectory": [
+        false
+      ]
+    },
+    {
+      "use_ms_hk1": [
+        false
+      ],
+      "use_ms_hk2": [
+        true
+      ],
+      "use_of_hk1": [
+        false
+      ],
+      "use_of_hk2": [
+        true
+      ],
+      "use_trajectory": [
+        false
+      ]
+    },
+    {
+      "use_ms_hk1": [
+        false
+      ],
+      "use_ms_hk2": [
+        false
+      ],
+      "use_of_hk1": [
+        true
+      ],
+      "use_of_hk2": [
+        true
+      ],
+      "use_trajectory": [
+        false
+      ]
+    },
+    {
+      "use_ms_hk1": [
+        true
+      ],
+      "use_ms_hk2": [
+        false
+      ],
+      "use_of_hk1": [
+        false
+      ],
+      "use_of_hk2": [
+        false
+      ],
+      "use_trajectory": [
+        false
+      ]
+    },
+    {
+      "use_ms_hk1": [
+        false
+      ],
+      "use_ms_hk2": [
+        true
+      ],
+      "use_of_hk1": [
+        false
+      ],
+      "use_of_hk2": [
+        false
+      ],
+      "use_trajectory": [
+        false
+      ]
+    },
+    {
+      "use_ms_hk1": [
+        false
+      ],
+      "use_ms_hk2": [
+        false
+      ],
+      "use_of_hk1": [
+        true
+      ],
+      "use_of_hk2": [
+        false
+      ],
+      "use_trajectory": [
+        false
+      ]
+    },
+    {
+      "use_ms_hk1": [
+        false
+      ],
+      "use_ms_hk2": [
+        false
+      ],
+      "use_of_hk1": [
+        false
+      ],
+      "use_of_hk2": [
+        true
+      ],
+      "use_trajectory": [
+        false
+      ]
+    }
+  ]
+}
