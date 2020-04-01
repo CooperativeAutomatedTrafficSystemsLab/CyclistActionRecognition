@@ -3,6 +3,7 @@ import os
 import numpy as np
 from datetime import datetime
 import json
+import tf
 
 
 ## Iterates over nested dict and performs eval for every string in dict that contains the word "eval"

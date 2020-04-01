@@ -4,6 +4,7 @@ import numpy as np
 from datetime import datetime
 import json
 from LF_Python3.tf_GridSearch_multiprocessing import TFGridSearch
+import tf
 
 
 ## Iterates over nested dict and performs eval for every string in dict that contains the word "eval"
